@@ -1,0 +1,21 @@
+importFrom(methods, setRefClass)
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+    "as.matrix",
+    "dim",
+    "dim<-",
+    "dimnames",
+    "dimnames<-",
+    "rownames",
+    "rownames<-",
+    "colnames",
+    "colnames<-",
+    "length",
+    "close"
+)
+exportClasses(
+    "filematrix" 
+)
+S3method("[", filematrix)
+S3method("[<-", filematrix)
+
