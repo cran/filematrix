@@ -1,8 +1,8 @@
-## ----setup, echo=FALSE-----------------------------------------------------
+## ----setup, echo=FALSE---------------------------------------------------
 library(knitr)
 # opts_knit$set(root.dir=tempdir())
 
-## ----eval=FALSE------------------------------------------------------------
+## ----eval=FALSE----------------------------------------------------------
 #  library(filematrix)
 #  fm = fm.create(
 #          filenamebase = "big_fm",
@@ -21,7 +21,7 @@ library(knitr)
 #  
 #  closeAndDeleteFiles(fm)
 
-## ----eval=FALSE------------------------------------------------------------
+## ----eval=FALSE----------------------------------------------------------
 #  library(bigmemory)
 #  fm = filebacked.big.matrix(
 #          nrow = 1e5,
